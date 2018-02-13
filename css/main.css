@@ -3,8 +3,42 @@
  * Embedded Media Assignment
  *
  * Site Styles
- *****************************************************************************/
+*****************************************************************************/
+html {
+  padding: 0;
+}
+body {
+  margin: 0;
+}
 
- html {
-     color: green;
- }
+header {
+  min-height: 400px;
+  background-image: url(../img/monkaa_title.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+#social {
+  background: pink;
+  postion: absolute;
+  top: 50px;
+  right: 0;
+  width: 25px;
+  transition: 2s width;
+}
+#social:hover {
+  width: 250px;
+}
+
+#social ul {
+  list-style-type: none;
+  padding: 0;
+}
+#social li {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  padding: 25px;
+}
