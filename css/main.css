@@ -4,6 +4,10 @@
  *
  * Site Styles
 *****************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
 html {
   padding: 0;
 }
@@ -21,14 +25,15 @@ header {
 
 #social {
   background: pink;
-  postion: absolute;
+  position: absolute;
   top: 50px;
   right: 0;
   width: 25px;
-  transition: 2s width;
+  
 }
 #social:hover {
   width: 250px;
+  transition: 2s width;
 }
 
 #social ul {
@@ -39,6 +44,22 @@ header {
   margin: 0;
   padding: 0;
 }
+ul.weybec-people {
+ list-style-type: none;
+ display: flex;
+ justify-content: space-between;
+}
+ul.weybec-people img {
+ width: 300px;
+ height: 300px;
+}
+ul.weybec-people li {
+ display: inline-block;
+}
+.download-button {
+  padding: 25px;
+}
+
 footer {
   padding: 25px;
 }
